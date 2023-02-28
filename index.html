@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Dịch vụ soát xét, báo cáo tài chính.">
+  <meta name="keywords"
+    content="hóa đơn, chứng từ, invoice, kê khai, báo cáo tài chính, soát xét chứng từ, soát xét hóa đơn, iap, dịch vụ iap">
+  <meta name="author" content="vinh">
+  <title>IAP</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.png">
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/colors/aqua.css">
+  <link rel="preload" href="./assets/css/fonts/iap.css" as="style" onload="this.rel='stylesheet'">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <header class="wrapper bg-dark">
+      <nav class="navbar navbar-expand-lg center-nav transparent navbar-dark">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a href="./index.html">
+              <img class="logo-dark" src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x"
+                alt="" />
+              <img class="logo-light" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x"
+                alt="" />
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">IAP</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link" href="#" data-bs-toggle="dropdown">Giới thiệu</a>
+                </li>
+                <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link" href="#" data-bs-toggle="dropdown">Sản phẩm</a>
+                </li>
+                <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link" href="#" data-bs-toggle="dropdown">Hướng dẫn</a>
+                </li>
+              </ul>
+              <!-- /.navbar-nav -->
+              <div class="offcanvas-footer d-lg-none">
+                <div>
+                  <a href="/cdn-cgi/l/email-protection#bbddd2c9c8cf95d7dac8cffbded6dad2d795d8d4d6"
+                    class="link-inverse"><span class="__cf_email__"
+                      data-cfemail="bed7d0d8d1fedbd3dfd7d290ddd1d3">[email&#160;protected]</span></a>
+                  <br /> 00 (123) 456 78 90 <br />
+                  <nav class="nav social social-white mt-4">
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-dribbble"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-youtube"></i></a>
+                  </nav>
+                  <!-- /.social -->
+                </div>
+              </div>
+              <!-- /.offcanvas-footer -->
+            </div>
+            <!-- /.offcanvas-body -->
+          </div>
+          <!-- /.navbar-collapse -->
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <!-- <li class="nav-item"><a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-search"><i class="uil uil-search"></i></a></li> -->
+              <li class="nav-item d-none d-md-block">
+                <a href="./contact.html" class="btn btn-sm btn-primary rounded">Liên hệ</a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-other -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+      <div class="offcanvas offcanvas-top bg-light" id="offcanvas-search" data-bs-scroll="true">
+        <div class="container d-flex flex-row py-6">
+          <form class="search-form w-100">
+            <input id="search-form" type="text" class="form-control" placeholder="Type keyword and hit enter">
+          </form>
+          <!-- /.search-form -->
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.offcanvas -->
+    </header>
+    <!-- /header -->
+    <section class="wrapper bg-dark angled lower-start">
+      <div class="container pt-7 pt-md-11 pb-8">
+        <div class="row gx-0 gy-10 align-items-center">
+          <div class="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="600">
+            <h1 class="display-1 text-white mb-4">Dịch vụ IAP <br /><span class="typer text-primary text-nowrap"
+                data-delay="100" data-words="soát xét hóa đơn, báo cáo tài chính"></span><span
+                class="cursor text-primary" data-owner="typer"></span></h1>
+            <p class="lead fs-24 lh-sm text-white mb-7 pe-md-18 pe-lg-0 pe-xxl-15">Chúng tôi xem xét cẩn thận các giải pháp của mình để hỗ trợ từng giai đoạn phát triển của bạn.</p>
+            <div>
+              <a class="btn btn-lg btn-primary rounded">Bắt đầu</a>
+            </div>
+          </div>
+          <!-- /column -->
+          <div class="col-lg-5 offset-lg-1 mb-n18" data-cues="slideInDown">
+            <div class="position-relative">
+              <a href="./assets/media/movie.mp4"
+                class="btn btn-circle btn-primary btn-play ripple mx-auto mb-6 position-absolute"
+                style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i
+                  class="icn-caret-right"></i></a>
+              <figure class="rounded shadow-lg"><img src="./assets/img/photos/about13.jpg"
+                  srcset="./assets/img/photos/about13@2x.jpg 2x" alt=""></figure>
+            </div>
+            <!-- /div -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light">
+      <div class="container pt-19 pt-md-21 pb-16 pb-md-18">
+        <div class="row">
+          <div class="col-lg-8 col-xl-7 col-xxl-6">
+            <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Chúng tôi làm gì?</h2>
+            <h3 class="display-4 mb-9">Dịch vụ chúng tôi cung cấp được thiết kế đặc biệt để đáp ứng nhu cầu của bạn</h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row gx-md-8 gy-8 mb-14 mb-md-18">
+          <div class="col-md-6 col-lg-3">
+            <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="uil uil-phone-volume"></i>
+            </div>
+            <h4>24/7 Hỗ trợ</h4>
+            <p class="mb-3">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.
+              Cras justo.</p>
+            <a href="#" class="more hover link-primary">Tìm hiểu thêm</a>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-3">
+            <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i
+                class="uil uil-shield-exclamation"></i> </div>
+            <h4>Bảo mật dữ liệu</h4>
+            <p class="mb-3">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.
+              Cras justo.</p>
+            <a href="#" class="more hover link-primary">Tìm hiểu thêm</a>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-3">
+            <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="uil uil-laptop-cloud"></i>
+            </div>
+            <h4>Cập nhật hằng ngày</h4>
+            <p class="mb-3">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.
+              Cras justo.</p>
+            <a href="#" class="more hover link-primary">Tìm hiểu thêm</a>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-3">
+            <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="uil uil-chart-line"></i>
+            </div>
+            <h4>Nghiên cứu thị trường</h4>
+            <p class="mb-3">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.
+              Cras justo.</p>
+            <a href="#" class="more hover link-primary">Tìm hiểu thêm</a>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row gy-10 gy-sm-13 gx-lg-3 mb-16 mb-md-18 align-items-center">
+          <div class="col-md-8 col-lg-6 position-relative">
+            <div class="shape bg-dot primary rellax w-17 h-21" data-rellax-speed="1" style="top: -2rem; left: -1.9rem;">
+            </div>
+            <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0"
+              style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
+            <figure class="rounded"><img src="./assets/img/photos/about7.jpg"
+                srcset="./assets/img/photos/about7@2x.jpg 2x" alt="" /></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-5 col-xl-4 offset-lg-1">
+            <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Hoạt động như thế nào?</h2>
+            <h3 class="display-4 mb-7">Dưới đây là 3 bước làm để hoàn thành.</h3>
+            <div class="d-flex flex-row mb-6">
+              <div>
+                <span class="icon btn btn-block btn-soft-primary pe-none me-5"><span
+                    class="number fs-18">1</span></span>
+              </div>
+              <div>
+                <h4 class="mb-1">Thu thập thông tin</h4>
+                <p class="mb-0">Nulla vitae elit libero pharetra augue dapibus. Praesent commodo cursus.</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row mb-6">
+              <div>
+                <span class="icon btn btn-block btn-soft-primary pe-none me-5"><span
+                    class="number fs-18">2</span></span>
+              </div>
+              <div>
+                <h4 class="mb-1">Phân tích dữ liệu</h4>
+                <p class="mb-0">Vivamus sagittis lacus vel augue laoreet. Etiam porta sem malesuada magna.</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div>
+                <span class="icon btn btn-block btn-soft-primary pe-none me-5"><span
+                    class="number fs-18">3</span></span>
+              </div>
+              <div>
+                <h4 class="mb-1">Hoàn thiện sản phẩm</h4>
+                <p class="mb-0">Cras mattis consectetur purus sit amet. Aenean lacinia bibendum nulla sed.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row gy-10 gy-sm-13 gx-lg-3 align-items-center">
+          <div class="col-md-8 col-lg-6 offset-lg-1 order-lg-2 position-relative">
+            <div class="shape rounded-circle bg-line primary rellax w-18 h-18" data-rellax-speed="1"
+              style="top: -2rem; right: -1.9rem;"></div>
+            <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0"
+              style="bottom: -1.8rem; left: -1.5rem; width: 85%; height: 90%; "></div>
+            <figure class="rounded"><img src="./assets/img/photos/about9.jpg"
+                srcset="./assets/img/photos/about9@2x.jpg 2x" alt=""></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-5">
+            <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Tại sao chọn chúng tôi?</h2>
+            <h3 class="display-4 mb-7">Một vài lý do tại sao khách hàng quan trọng chọn chúng tôi.</h3>
+            <div class="accordion accordion-wrapper" id="accordionExample">
+              <div class="card plain accordion-item">
+                <div class="card-header" id="headingOne">
+                  <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne"> Đội ngũ chuyên nghiệp </button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                      sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                      vel.</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
+              <!--/.accordion-item -->
+              <div class="card plain accordion-item">
+                <div class="card-header" id="headingTwo">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo"> Hỗ trợ hàng đầu </button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                      sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                      vel.</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
+              <!--/.accordion-item -->
+              <div class="card plain accordion-item">
+                <div class="card-header" id="headingThree">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                    aria-expanded="false" aria-controls="collapseThree"> Tùy biến cao </button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="card-body">
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                      sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                      vel.</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
+              <!--/.accordion-item -->
+            </div>
+            <!--/.accordion -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper image-wrapper bg-image bg-overlay" data-image-src="./assets/img/photos/bg1.jpg">
+      <div class="container py-18">
+        <div class="row">
+          <div class="col-lg-8">
+            <h2 class="fs-16 text-uppercase text-line text-white mb-3">Tham gia với chúng tôi</h2>
+            <h3 class="display-4 mb-6 text-white pe-xxl-18">Chúng tôi được hơn 5000+ khách hàng tin tưởng. Tham gia cùng họ bằng cách sử dụng các dịch vụ của chúng tôi và phát triển doanh nghiệp của bạn.</h3>
+            <a href="#" class="btn btn-white rounded mb-0 text-nowrap">Tham gia</a>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light angled upper-end">
+      <div class="container py-14 py-md-16">
+        <div class="row">
+          <div class="col-lg-9 col-xl-8 col-xxl-7">
+            <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Nghiên cứu tình huống</h2>
+            <h3 class="display-4 mb-9">Điểm qua một số dự án tuyệt vời của chúng tôi với những ý tưởng sáng tạo và thiết kế tuyệt vời.</h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="swiper-container blog grid-view mb-10" data-margin="30" data-dots="true" data-items-xl="3"
+          data-items-md="2" data-items-xs="1">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img
+                        src="./assets/img/photos/b4.jpg" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Xem thêm</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <h2 class="post-title h3 mb-3"><a class="link-dark" href="#">Tiêu đề 1</a></h2>
+                  </div>
+                  <!-- /.post-header -->
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Coding</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img
+                        src="./assets/img/photos/b5.jpg" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Xem thêm</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <h2 class="post-title h3 mb-3"><a class="link-dark" href="#">Tiêu đề 2</a></h2>
+                  </div>
+                  <!-- /.post-header -->
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Workspace</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img
+                        src="./assets/img/photos/b6.jpg" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Xem thêm</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <h2 class="post-title h3 mb-3"><a class="link-dark" href="#">Tiêu đề 3</a></h2>
+                  </div>
+                  <!-- /.post-header -->
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Meeting</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img
+                        src="./assets/img/photos/b7.jpg" alt="" /></a>
+                    <figcaption>
+                      <h5 class="from-top mb-0">Xem thêm</h5>
+                    </figcaption>
+                  </figure>
+                  <div class="post-header">
+                    <h2 class="post-title h3 mb-3"><a class="link-dark" href="#">Tiêu đề 4</a></h2>
+                  </div>
+                  <div class="post-footer">
+                    <ul class="post-meta">
+                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2022</span></li>
+                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Business Tips</a></li>
+                    </ul>
+                    <!-- /.post-meta -->
+                  </div>
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              <!--/.swiper-slide -->
+            </div>
+            <!-- /.swiper-wrapper -->
+          </div>
+          <!-- /.swiper -->
+        </div>
+        <!-- /.swiper-container -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-soft-primary">
+      <div class="container py-14 pt-md-17 pb-md-21">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0 mb-2 align-items-end">
+          <div class="col-lg-4">
+            <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Thông tin công ty</h2>
+            <h3 class="display-4 mb-0 pe-xxl-15">Chúng tôi tự hào về công việc của mình.</h3>
+          </div>
+          <!-- /column -->
+          <div class="col-lg-8 mt-lg-2">
+            <div class="row align-items-center counter-wrapper gy-6 text-center">
+              <div class="col-md-4">
+                <h3 class="counter counter-lg">1000+</h3>
+                <p>Dự án hoàn thành</p>
+              </div>
+              <!--/column -->
+              <div class="col-md-4">
+                <h3 class="counter counter-lg">500+</h3>
+                <p>Khách hàng hạnh phúc</p>
+              </div>
+              <!--/column -->
+              <div class="col-md-4">
+                <h3 class="counter counter-lg">150+</h3>
+                <p>Giải thưởng giành được</p>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light angled upper-end lower-start">
+      <div class="container py-16 py-md-18 position-relative">
+        <div class="position-relative mt-n18 mt-md-n23 mb-16 mb-md-18">
+          <div class="shape rounded-circle bg-line primary rellax w-18 h-18" data-rellax-speed="1"
+            style="top: -2rem; right: -2.7rem; z-index:0;"></div>
+          <div class="shape rounded-circle bg-soft-primary rellax w-18 h-18" data-rellax-speed="1"
+            style="bottom: -1rem; left: -3rem; z-index:0;"></div>
+          <div class="card shadow-lg">
+            <div class="row gx-0">
+              <div class="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start"
+                data-image-src="./assets/img/photos/tm1.jpg">
+              </div>
+              <!--/column -->
+              <div class="col-lg-6">
+                <div class="p-10 p-md-11 p-lg-13">
+                  <div class="swiper-container dots-closer mb-4" data-margin="30" data-dots="true">
+                    <div class="swiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <blockquote class="icon icon-top fs-lg text-center">
+                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula
+                              porta felis euismod semper. Cras justo odio.”</p>
+                            <div class="blockquote-details justify-content-center text-center">
+                              <div class="info ps-0">
+                                <h5 class="mb-1">Nhân viên A</h5>
+                                <p class="mb-0">Financial Analyst</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                          <blockquote class="icon icon-top fs-lg text-center">
+                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula
+                              porta felis euismod semper. Cras justo odio.”</p>
+                            <div class="blockquote-details justify-content-center text-center">
+                              <div class="info ps-0">
+                                <h5 class="mb-1">Nhân viên B</h5>
+                                <p class="mb-0">Marketing Specialist</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                          <blockquote class="icon icon-top fs-lg text-center">
+                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula
+                              porta felis euismod semper. Cras justo odio.”</p>
+                            <div class="blockquote-details justify-content-center text-center">
+                              <div class="info ps-0">
+                                <h5 class="mb-1">Nhân viên C</h5>
+                                <p class="mb-0">Sales Manager</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <!--/.swiper-slide -->
+                      </div>
+                      <!-- /.swiper-wrapper -->
+                    </div>
+                    <!-- /.swiper -->
+                  </div>
+                  <!-- /.swiper-container -->
+                </div>
+                <!--/div -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /.card -->
+        </div>
+        <!-- /div -->
+        <div class="row gy-6 mb-16 mb-md-18">
+          <div class="col-lg-4">
+            <h2 class="fs-16 text-uppercase text-line text-primary mt-lg-18 mb-3">Báo giá dịch vụ</h2>
+            <h3 class="display-4 mb-3">Chúng tôi cung cấp giá dịch vụ.</h3>
+            <p>Tận hưởng <a href="#" class="hover">30 ngày dùng thử miễn phí</a> và trải nghiệm dịch vụ đầy đủ. Không cần thẻ tín dụng!</p>
+            <a href="#" class="btn btn-primary rounded mt-2">Tất cả các giá</a>
+          </div>
+          <!--/column -->
+          <div class="col-lg-7 offset-lg-1 pricing-wrapper">
+            <div class="pricing-switcher-wrapper switcher justify-content-start justify-content-lg-end">
+              <p class="mb-0 pe-3">Hàng tháng</p>
+              <div class="pricing-switchers">
+                <div class="pricing-switcher pricing-switcher-active"></div>
+                <div class="pricing-switcher"></div>
+                <div class="switcher-button bg-primary"></div>
+              </div>
+              <p class="mb-0 ps-3">Hàng năm <span class="text-red">(Tiết kiệm 30%)</span></p>
+            </div>
+            <div class="row gy-6 position-relative mt-5">
+              <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1"
+                style="bottom: -0.5rem; right: -1.6rem;"></div>
+              <div class="shape rounded-circle bg-soft-primary rellax w-18 h-18" data-rellax-speed="1"
+                style="top: -1rem; left: -2rem;"></div>
+              <div class="col-md-6">
+                <div class="pricing card shadow-lg">
+                  <div class="card-body pb-12">
+                    <div class="prices text-dark">
+                      <div class="price price-show justify-content-start"><span class="price-currency">$</span><span
+                          class="price-value">19</span> <span class="price-duration">mo</span></div>
+                      <div class="price price-hide price-hidden justify-content-start"><span
+                          class="price-currency">$</span><span class="price-value">199</span> <span
+                          class="price-duration">yr</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <h4 class="card-title mt-2">Premium Plan</h4>
+                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
+                      <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
+                      <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
+                      <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span></li>
+                      <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
+                      <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary rounded">Choose Plan</a>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
+              <!--/column -->
+              <div class="col-md-6 popular">
+                <div class="pricing card shadow-lg">
+                  <div class="card-body pb-12">
+                    <div class="prices text-dark">
+                      <div class="price price-show justify-content-start"><span class="price-currency">$</span><span
+                          class="price-value">49</span> <span class="price-duration">mo</span></div>
+                      <div class="price price-hide price-hidden justify-content-start"><span
+                          class="price-currency">$</span><span class="price-value">499</span> <span
+                          class="price-duration">yr</span></div>
+                    </div>
+                    <!--/.prices -->
+                    <h4 class="card-title mt-2">Corporate Plan</h4>
+                    <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
+                      <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
+                      <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span></li>
+                      <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
+                      <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
+                      <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
+                    </ul>
+                    <a href="#" class="btn btn-primary rounded">Choose Plan</a>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.pricing -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row gy-10 gy-sm-13 gx-lg-3 align-items-center">
+          <div class="col-md-8 col-lg-6 position-relative">
+            <div class="shape bg-dot primary rellax w-17 h-21" data-rellax-speed="1" style="top: -2rem; left: -1.9rem;">
+            </div>
+            <div class="shape rounded bg-soft-primary rellax d-md-block" data-rellax-speed="0"
+              style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
+            <figure class="rounded"><img src="./assets/img/photos/about14.jpg"
+                srcset="./assets/img/photos/about14@2x.jpg 2x" alt="" /></figure>
+          </div>
+          <!--/column -->
+          <div class="col-lg-5 col-xl-4 offset-lg-1">
+            <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Liên lạc</h2>
+            <h2 class="display-4 mb-8">Hãy liên hệ với chúng tôi.</h2>
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-location-pin-alt"></i> </div>
+              </div>
+              <div>
+                <h5 class="mb-1">Địa chỉ</h5>
+                <address>Số 20 Lê Lợi, <br class="d-none d-md-block" />Hải Phòng, Việt Nam
+                </address>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-phone-volume"></i> </div>
+              </div>
+              <div>
+                <h5 class="mb-1">Số điện thoại</h5>
+                <p>00 (123) 456 78 90</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon text-primary fs-28 me-6 mt-n1"> <i class="uil uil-envelope"></i> </div>
+              </div>
+              <div>
+                <h5 class="mb-1">E-mail</h5>
+                <p class="mb-0"><a href="mailto:hotro@thuemienbac.vn"
+                    class="link-body"><span class="__cf_email__"
+                      data-cfemail="d8abb9b6bcbab7a098bdb5b9b1b4f6bbb7b5">hotro@thuemienbac.vn</span></a></p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="bg-dark text-inverse">
+    <div class="container pt-17 pt-md-19 pb-13 pb-md-15">
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
+            <p class="mb-4">© 2023 IAP. <br class="d-none d-lg-block" />All rights reserved.</p>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-dribbble"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </nav>
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Liên hệ</h4>
+            <address class="pe-xl-15 pe-xxl-17">Số 20 Lê Lợi, Hải Phòng, Việt Nam</address>
+            <a href="/cdn-cgi/l/email-protection#85a6"><span class="__cf_email__"
+                data-cfemail="51383f373e11343c30383d7f323e3c">hotro@thuemienbac.vn</span></a><br /> 00 (123) 456 78 90
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Tìm hiểu thêm</h4>
+            <ul class="list-unstyled  mb-0">
+              <li><a href="#">Giới thiệu</a></li>
+              <li><a href="#">Sản phẩm</a></li>
+              <li><a href="#">Hướng dẫn</a></li>
+              <li><a href="#">Liên hệ</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-12 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Tin của chúng tôi</h4>
+            <p class="mb-5">Đăng ký nhận thông tin của chúng tôi để nhận tin tức và giao dịch của chúng tôi gửi đến bạn.</p>
+            <div class="newsletter-wrapper">
+              <!-- Begin Mailchimp Signup Form -->
+              <div id="mc_embed_signup2">
+                <form
+                  action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+                  method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
+                  class="validate dark-fields" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll2">
+                    <div class="mc-field-group input-group form-floating">
+                      <input type="email" value="" name="EMAIL" class="required email form-control"
+                        placeholder="Địa chỉ Email" id="mce-EMAIL2">
+                      <label for="mce-EMAIL2">Địa chỉ Email</label>
+                      <input type="submit" value="Tham gia" name="subscribe" id="mc-embedded-subscribe2"
+                        class="btn btn-primary ">
+                    </div>
+                    <div id="mce-responses2" class="clear">
+                      <div class="response" id="mce-error-response2" style="display:none"></div>
+                      <div class="response" id="mce-success-response2" style="display:none"></div>
+                    </div>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                    <div class="clear"></div>
+                  </div>
+                </form>
+              </div>
+              <!--End mc_embed_signup-->
+            </div>
+            <!-- /.newsletter-wrapper -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>
