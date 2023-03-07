@@ -13518,7 +13518,7 @@ fieldset:disabled .btn {
 
 .text-auto-iap {
     --bs-text-opacity: 1;
-    color: #03a9f4 !important
+    color: #93ddff !important
 }
 
 .text-orange {
@@ -47416,7 +47416,7 @@ video.player {
 }
 
 .pricing-wrapper [class*=col-] .pricing.card .prices .price-duration:before {
-    content: "/";
+    content: "";
     padding: 0
 }
 
