@@ -21,7 +21,7 @@
 
 <body>
   <div class="content-wrapper">
-    <header class="wrapper bg-primary">
+    <header class="wrapper bg-iap">
       <nav class="navbar navbar-expand-lg center-nav transparent navbar-dark">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
@@ -102,16 +102,15 @@
       <!-- /.offcanvas -->
     </header>
     <!-- /header -->
-    <section class="wrapper bg-primary angled lower-start">
+    <section class="wrapper bg-iap angled lower-start">
       <div class="container pt-7 pt-md-11 pb-8">
         <div class="row gx-0 gy-10 align-items-center">
           <div class="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="600">
-            <h1 class="display-1 text-white mb-4">IAP - Dịch vụ trợ lý thuế<br /><span class="typer text-dark"
+            <h1 class="display-1 text-white mb-4">IAP - Dịch vụ trợ lý thuế<br /><span class="typer text-auto-iap"
                 data-delay="100"
-                data-words="soát xét hoá đơn từ cổng tra cứu, dự báo thuế GTGT & thuế TNDN phải nộp, xuất dữ liệu để cập nhật phần mềm kế toán"></span><span
+                data-words="soát xét hoá đơn, dự báo tiền thuế phải nộp, xuất dữ liệu cho kế toán"></span><span
                 class="cursor text-red" data-owner="typer"></span></h1>
-            <p class="lead fs-24 lh-sm text-white mb-7 pe-md-18 pe-lg-0 pe-xxl-15">Chúng tôi xem xét cẩn trọng các chứng
-              từ, nghiệp vụ tài chính/kế toán.</p>
+            <p class="lead fs-24 lh-sm text-white mb-7 pe-lg-0">Chúng tôi xem xét cẩn trọng các hóa đơn, nghiệp vụ tài chính/kế toán, đề xuất các giải pháp phù hợp cho từng giai đoạn phát triển của bạn.</p>
             <div>
               <a class="btn btn-lg btn-white rounded">Bắt đầu</a>
             </div>
@@ -138,16 +137,15 @@
     <section class="wrapper bg-light">
       <div class="container pt-19 pt-md-21 pb-16 pb-md-18">
         <div class="row">
-          <div class="col-lg-8 col-xl-7 col-xxl-6">
+          <div class="col-lg-8 col-xl-7 col-xxl-9">
             <h2 class="fs-16 text-uppercase text-line text-primary mb-3">Chúng tôi làm gì?</h2>
-            <h3 class="display-4 mb-9">Chúng tôi được thiết kế đặc biệt để làm trợ lý giải quyết các vấn đề về thuế cho
-              doanh nghiệp của bạn</h3>
+            <h3 class="display-4 mb-9">Chúng tôi phân tích dữ liệu hóa đơn, dự báo Chi phí/Doanh thu, số thuế phải nộp, công nợ, tồn kho, các hồ sơ liên quan, … đem lại giải pháp toàn diện các vấn đề về thuế cho bạn</h3>
           </div>
           <!-- /column -->
         </div>
         <!-- /.row -->
         <div class="row gx-md-8 gy-8 mb-14 mb-md-18">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-3">
             <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="uil uil-phone-volume"></i>
             </div>
             <h4>Hỗ trợ 24/7</h4>
@@ -156,7 +154,7 @@
               class="more hover link-primary">Tìm hiểu thêm</a>
           </div>
           <!--/column -->
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-3">
             <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i
                 class="uil uil-shield-exclamation"></i> </div>
             <h4>Bảo mật dữ liệu</h4>
@@ -166,13 +164,22 @@
               class="more hover link-primary">Tìm hiểu thêm</a>
           </div>
           <!--/column -->
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-3">
             <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="uil uil-laptop-cloud"></i>
             </div>
             <h4>Cập nhật hằng ngày</h4>
             <p class="mb-3">Chính sách thuế liên tục thay đổi và Chúng tôi luôn cập nhật kịp thời để vận dụng vào công
               việc hàng ngày tốt hơn.</p>
             <a data-bs-toggle="modal" data-bs-target="#updateDaily" style="cursor: pointer;"
+              class="more hover link-primary">Tìm hiểu thêm</a>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-3">
+            <div class="icon btn btn-block btn-lg btn-soft-primary pe-none mb-6"> <i class="uil uil-chart-growth"></i>
+            </div>
+            <h4>Lợi ích</h4>
+            <p class="mb-3">Tăng hiệu suất, giảm thời gian sử lý hóa đơn và cân đối phát sinh trong kỳ đến 95%.</p>
+            <a data-bs-toggle="modal" data-bs-target="#benefit" style="cursor: pointer;"
               class="more hover link-primary">Tìm hiểu thêm</a>
           </div>
           <!--/column -->
@@ -471,77 +478,6 @@
     <!-- /section -->
     <section class="wrapper bg-light angled upper-end lower-start">
       <div class="container py-16 py-md-18 position-relative">
-        <div class="position-relative mt-n18 mt-md-n23 mb-16 mb-md-18">
-          <div class="shape rounded-circle bg-line primary rellax w-18 h-18" data-rellax-speed="1"
-            style="top: -2rem; right: -2.7rem; z-index:0;"></div>
-          <div class="shape rounded-circle bg-soft-primary rellax w-18 h-18" data-rellax-speed="1"
-            style="bottom: -1rem; left: -3rem; z-index:0;"></div>
-          <div class="card shadow-lg">
-            <div class="row gx-0">
-              <div class="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start"
-                data-image-src="./assets/img/photos/tm1.jpg">
-              </div>
-              <!--/column -->
-              <div class="col-lg-6">
-                <div class="p-10 p-md-11 p-lg-13">
-                  <div class="swiper-container dots-closer mb-4" data-margin="30" data-dots="true">
-                    <div class="swiper">
-                      <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                          <blockquote class="icon icon-top fs-lg text-center">
-                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula
-                              porta felis euismod semper. Cras justo odio.”</p>
-                            <div class="blockquote-details justify-content-center text-center">
-                              <div class="info ps-0">
-                                <h5 class="mb-1">Nhân viên A</h5>
-                                <p class="mb-0">Financial Analyst</p>
-                              </div>
-                            </div>
-                          </blockquote>
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide">
-                          <blockquote class="icon icon-top fs-lg text-center">
-                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula
-                              porta felis euismod semper. Cras justo odio.”</p>
-                            <div class="blockquote-details justify-content-center text-center">
-                              <div class="info ps-0">
-                                <h5 class="mb-1">Nhân viên B</h5>
-                                <p class="mb-0">Marketing Specialist</p>
-                              </div>
-                            </div>
-                          </blockquote>
-                        </div>
-                        <!--/.swiper-slide -->
-                        <div class="swiper-slide">
-                          <blockquote class="icon icon-top fs-lg text-center">
-                            <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum ligula
-                              porta felis euismod semper. Cras justo odio.”</p>
-                            <div class="blockquote-details justify-content-center text-center">
-                              <div class="info ps-0">
-                                <h5 class="mb-1">Nhân viên C</h5>
-                                <p class="mb-0">Sales Manager</p>
-                              </div>
-                            </div>
-                          </blockquote>
-                        </div>
-                        <!--/.swiper-slide -->
-                      </div>
-                      <!-- /.swiper-wrapper -->
-                    </div>
-                    <!-- /.swiper -->
-                  </div>
-                  <!-- /.swiper-container -->
-                </div>
-                <!--/div -->
-              </div>
-              <!--/column -->
-            </div>
-            <!--/.row -->
-          </div>
-          <!-- /.card -->
-        </div>
-        <!-- /div -->
         <div class="row gy-6 mb-16 mb-md-18">
           <div class="col-lg-2">
             <h2 class="fs-16 text-uppercase text-line text-primary mt-lg-18 mb-3">Báo giá dịch vụ</h2>
@@ -551,15 +487,15 @@
           </div>
           <!--/column -->
           <div class="col-lg-9 offset-lg-1 pricing-wrapper">
-            <div class="pricing-switcher-wrapper switcher justify-content-start justify-content-lg-end">
+            <!-- <div class="pricing-switcher-wrapper switcher justify-content-start justify-content-lg-end">
               <p class="mb-0 pe-3">Hàng tháng</p>
               <div class="pricing-switchers">
                 <div class="pricing-switcher pricing-switcher-active"></div>
                 <div class="pricing-switcher"></div>
                 <div class="switcher-button bg-primary"></div>
               </div>
-              <p class="mb-0 ps-3">Hàng năm <span class="text-red">(Tiết kiệm 30%)</span></p>
-            </div>
+              <p class="mb-0 ps-3">Hàng năm <span class="text-red">(Tiết kiệm 20%)</span></p>
+            </div> -->
             <div class="row gy-6 position-relative mt-5">
               <div class="shape bg-dot primary rellax w-16 h-18" data-rellax-speed="1"
                 style="bottom: -0.5rem; right: -1.6rem;"></div>
@@ -569,25 +505,16 @@
                 <div class="pricing card shadow-lg">
                   <div class="card-body pb-12">
                     <div class="prices text-dark">
-                      <div class="price price-show justify-content-start">
-                        <span class="price-value">180.000</span>
-                        <span class="price-currency"></span> <span class="price-duration">mo</span>
-                        <!-- <p class="text-muted">+ 0.01% Doanh thu</p> -->
-                      </div>
-                      <div class="price price-hide price-hidden justify-content-start">
-                        <span class="price-value">1.512.000</span> <span class="price-duration">yr</span>
-                      </div>
+                      <span>(<b class="fs-24">100.000</b> + 0.02% doanh thu) vnd / tháng</span>
                     </div>
                     <!--/.prices -->
-                    <h4 class="card-title mt-2">Trợ lý thuế cấp 1</h4>
+                    <h4 class="card-title mt-2 text-primary">Trợ lý thuế cấp 1</h4>
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
-                      <li><i class="uil uil-check"></i><span><strong>5</strong> Projects </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>100K</strong> API Access </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>200MB</strong> Storage </span></li>
-                      <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                      <li><i class="uil uil-times bullet-soft-red"></i><span> 7/24 <strong>Support</strong></span></li>
+                      <li><i class="uil uil-check"></i><span>Soát xét hóa đơn</span></li>
+                      <li><i class="uil uil-check"></i><span>Dự báo tiền thuế phải nộp</span></li>
+                      <li>&nbsp;</li>
                     </ul>
-                    <a href="#" class="btn btn-primary rounded">Choose Plan</a>
+                    <a href="#" class="btn btn-primary rounded">Liên hệ</a>
                   </div>
                   <!--/.card-body -->
                 </div>
@@ -598,21 +525,16 @@
                 <div class="pricing card shadow-lg">
                   <div class="card-body pb-12">
                     <div class="prices text-dark">
-                      <div class="price price-show justify-content-start"><span
-                          class="price-value">360.000</span> <span class="price-duration">mo</span></div>
-                      <div class="price price-hide price-hidden justify-content-start"><span class="price-value">3.024.000</span> <span
-                          class="price-duration">yr</span></div>
+                      <span>(<b class="fs-24">300.000</b> + 0.02% doanh thu) vnd / tháng</span>
                     </div>
                     <!--/.prices -->
-                    <h4 class="card-title mt-2">Trợ lý thuế cấp 2</h4>
+                    <h4 class="card-title mt-2 text-primary">Trợ lý thuế cấp 2</h4>
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
-                      <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
-                      <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                      <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
+                      <li><i class="uil uil-check"></i><span>Soát xét hóa đơn</span></li>
+                      <li><i class="uil uil-check"></i><span>Dự báo tiền thuế phải nộp</span></li>
+                      <li><i class="uil uil-check"></i><span>Xuất dữ liệu cho kế toán</span></li>
                     </ul>
-                    <a href="#" class="btn btn-primary rounded">Choose Plan</a>
+                    <a href="#" class="btn btn-primary rounded">Liên hệ</a>
                   </div>
                   <!--/.card-body -->
                 </div>
@@ -623,21 +545,21 @@
                 <div class="pricing card shadow-lg">
                   <div class="card-body pb-12">
                     <div class="prices text-dark">
-                      <div class="price price-show justify-content-start"><span
+                      <span><b class="fs-24">Giá thỏa thuận</b></span>
+                      <!-- <div class="price price-show justify-content-start"><span
                           class="price-value">Giá</span> <span class="price-duration">thỏa thuận</span></div>
                       <div class="price price-hide price-hidden justify-content-start"><span class="price-value">Giá</span> <span
-                          class="price-duration">thỏa thuận</span></div>
+                          class="price-duration">thỏa thuận</span></div> -->
                     </div>
                     <!--/.prices -->
-                    <h4 class="card-title mt-2">Trợ lý thuế vụ việc</h4>
+                    <h4 class="card-title mt-2 text-primary">Trợ lý thuế vụ việc</h4>
                     <ul class="icon-list bullet-bg bullet-soft-primary mt-7 mb-8">
-                      <li><i class="uil uil-check"></i><span><strong>20</strong> Projects </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>300K</strong> API Access </span></li>
-                      <li><i class="uil uil-check"></i><span><strong>500MB</strong> Storage </span></li>
-                      <li><i class="uil uil-check"></i><span> Weekly <strong>Reports</strong></span></li>
-                      <li><i class="uil uil-check"></i><span> 7/24 <strong>Support</strong></span></li>
+                      <li><i class="uil uil-check"></i><span>Soát xét nhanh</span></li>
+                      <li><i class="uil uil-check"></i><span>Hoàn thiện BCTC</span></li>
+                      <li><i class="uil uil-check"></i><span>Hoàn thuế</span></li>
+                      <li>&nbsp;</li>
                     </ul>
-                    <a href="#" class="btn btn-primary rounded">Choose Plan</a>
+                    <a href="#" class="btn btn-primary rounded">Liên hệ</a>
                   </div>
                   <!--/.card-body -->
                 </div>
@@ -838,6 +760,29 @@
         <div class="modal-body">
           <p>Chính sách thuế liên tục thay đổi và Chúng tôi luôn cập nhật kịp thời để vận dụng vào công việc hàng ngày
             tốt hơn.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal benefit -->
+  <div class="modal fade" id="benefit" tabindex="-1" aria-labelledby="benefitLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="benefitLabel">Lợi ích khi sử dụng</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>Tăng hiệu suất, giảm thời gian sử lý hóa đơn và cân đối phát sinh trong kỳ đến 95%</li>
+            <li>Giảm sai sót, không còn lỗi lo về nhập sai, nhập thiếu, nhập trùng, hay thất lạc hóa đơn</li>
+            <li>Quản lý thông minh: Công nghệ lọc, tìm kiếm khoa học, IAP giúp bạn không mất nhiều thời gian tìm kiếm và tra cứu dữ liệu hóa đơn</li>
+            <li>Tối ưu chi phí Giải phóng bộ phận kế toán trong việc quản lý, tập hợp, cập nhật, lưu trữ hóa đơn</li>
+          </ul>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
